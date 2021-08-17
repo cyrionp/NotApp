@@ -1,6 +1,7 @@
 class Not{
   int notID;
   int kategoriID;
+  String kategoriBaslik;
   String notBaslik;
   String notIcerik;
   String notTarih;
@@ -23,6 +24,7 @@ class Not{
   Not.fromMap(Map<String,dynamic> map){
     this.notID=map['notID'];
     this.kategoriID=map['kategoriID'];
+    this.kategoriBaslik=map['kategoriBaslik'];
     this.notBaslik=map['notBaslik'];
     this.notIcerik=map['notIcerik'];
     this.notTarih=map['notTarih'];
